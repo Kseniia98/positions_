@@ -54,7 +54,8 @@ ul {
 } 
 
 .sub-nav-item,
-.nav-item-women {
+.nav-item-women,
+.nav-item-shoes {
   display: block;
   text-align: center;
 }
@@ -68,6 +69,19 @@ ul {
 } 
 
 .sub-nav-item:hover > .nav-list-women{
+  display: block;
+  width: 100%;
+}
+
+.nav-list-shoes{
+  display: none;
+
+  position: absolute;
+  left: 102%;
+  top: 0px;
+}
+
+.nav-item-women:hover > .nav-list-shoes{
   display: block;
   width: 100%;
 }
